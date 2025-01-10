@@ -20,12 +20,13 @@ You can change some options from the script.
 
 ```javascript
 options : {
-    UPDATE_INTERVAL : 500,                   // Update interval in milliseconds, decrease for smoother progress movement or increase for performance.
-    PROGRESSBAR_OPACITY_WINDOW : 1,          // Progress bar opacity on window mode between 0 - 1.
+    UPDATE_INTERVAL: 500,                    // Update interval in milliseconds, decrease for smoother progress movement or increase for performance.
+    PROGRESSBAR_OPACITY_WINDOW: 1,           // Progress bar opacity on window mode between 0 - 1.
     PROGRESSBAR_OPACITY_FULLSCREEN: 0.5,     // Progress bar opacity on fullscreen mode between 0 - 1.
 
     UPDATE_VIDEO_TIMER : true,
     UPDATE_PROGRESSBAR : true,
-    UPDATE_BUFFERBAR : true
+    UPDATE_BUFFERBAR : true,
+    UPDATE_SCRUBBER: true
 }
 ```
